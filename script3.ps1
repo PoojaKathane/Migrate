@@ -1,5 +1,5 @@
 ﻿#Azure Devops Artifact Migration from one organization multiple project to another organization multiple project 
-$sourceOrgName="testdestorg"
+
 $sourceUrl = "https://feeds.dev.azure.com" #{Source Feeds Url}
 $sourcePat = "Token:n376553q4a3s3rj33yx73yihf2fppd42cbtshovpsyfwix3w4mia"
 $sourcetoken=[convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($sourcePat)) #{Convert Personal Access Token to Base64}
